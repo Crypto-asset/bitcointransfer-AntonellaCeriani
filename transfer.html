@@ -1,0 +1,59 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Start Transfer | Digital Wallet</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head> <body class="transfer-page"> <div id="particles"></div> <main class="transfer-container">
+<a href="index.html" class="back-link">
+    ← Back to Wallet
+</a>
+
+
+<section class="transfer-card">
+
+    <div class="transfer-icon">
+        ₿
+    </div>
+
+    <p class="eyebrow">TRANSFER</p>
+
+    <h1>Start Transfer</h1>
+
+    <p class="subtitle">
+        Enter the destination wallet address for this
+        transfer simulation.
+    </p>
+
+
+    <form id="transferForm">
+
+        <label for="destinationWallet">
+            Destination Wallet Address
+        </label>
+
+        <textarea
+            id="destinationWallet"
+            placeholder="Paste wallet address here..."
+            autocomplete="off"
+            required></textarea>
+
+
+        <button type="submit" class="btn primary full">
+            Continue
+        </button>
+
+    </form>
+
+
+    <div class="demo-notice">
+        <strong>Demo / Simulation</strong>
+
+        <span>
+            This page does not send or validate
+            cryptocurrency transactions.
+        </span>
+    </div>
+
+</section>
+
+</main> <script src="app.js"></script> </body> </html>
